@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { api } from '../services/api';
+import { api } from '../services/api.ts';
 
 interface AdminLoginProps {
   onLoginSuccess: () => void;

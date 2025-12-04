@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { api } from '../services/api';
-import { Submission, AdminTab, FormConfig } from '../types';
-import OverviewTab from './dashboard/OverviewTab';
-import CalendarTab from './dashboard/CalendarTab';
-import ConfigTab from './dashboard/ConfigTab';
-import FormsManagerTab from './dashboard/FormsManagerTab';
+import { api } from '../services/api.ts';
+import { Submission, AdminTab, FormConfig } from '../types.ts';
+import OverviewTab from './dashboard/OverviewTab.tsx';
+import CalendarTab from './dashboard/CalendarTab.tsx';
+import ConfigTab from './dashboard/ConfigTab.tsx';
+import FormsManagerTab from './dashboard/FormsManagerTab.tsx';
 import * as XLSX from 'xlsx';
 
 interface AdminDashboardProps {

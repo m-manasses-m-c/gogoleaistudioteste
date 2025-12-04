@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { api } from '../../services/api';
-import { FormConfig } from '../../types';
+import { api } from '../../services/api.ts';
+import { FormConfig } from '../../types.ts';
 
 const FormsManagerTab: React.FC = () => {
   const [forms, setForms] = useState<FormConfig[]>([]);

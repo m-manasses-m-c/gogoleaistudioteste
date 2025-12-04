@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Campus, SelectedCampus, FormConfig } from '../types';
-import { api } from '../services/api';
+import { Campus, SelectedCampus, FormConfig } from '../types.ts';
+import { api } from '../services/api.ts';
 
 interface FormViewProps {
   onSuccess: (email: string) => void;

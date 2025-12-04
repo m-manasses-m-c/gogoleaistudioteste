@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Campus, Submission, CalendarDay, DateCategory, CampusEvent, CalendarDataWrapper } from '../../types';
-import { api } from '../../services/api';
+import { Campus, Submission, CalendarDay, DateCategory, CampusEvent, CalendarDataWrapper } from '../../types.ts';
+import { api } from '../../services/api.ts';
 
 interface CalendarTabProps {
   submissions: Submission[];

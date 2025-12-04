@@ -1,14 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import CookieConsent from './components/CookieConsent';
-import FormView from './components/FormView';
-import SuccessView from './components/SuccessView';
-import AdminLogin from './components/AdminLogin';
-import AdminDashboard from './components/AdminDashboard';
-import { ViewState, Campus, FormConfig } from './types';
-import { api } from './services/api';
+import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
+import CookieConsent from './components/CookieConsent.tsx';
+import FormView from './components/FormView.tsx';
+import SuccessView from './components/SuccessView.tsx';
+import AdminLogin from './components/AdminLogin.tsx';
+import AdminDashboard from './components/AdminDashboard.tsx';
+import { ViewState, Campus, FormConfig } from './types.ts';
+import { api } from './services/api.ts';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>('form');

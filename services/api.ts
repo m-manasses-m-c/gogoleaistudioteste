@@ -1,6 +1,6 @@
 
-import { supabase } from '../supabase';
-import { IctConfig, Submission, Campus, FormConfig } from '../types';
+import { supabase } from '../supabase.ts';
+import { IctConfig, Submission, Campus, FormConfig } from '../types.ts';
 
 export const api = {
   async fetchGlobalConfig(): Promise<{ icts: string[], campi: Campus[] }> {

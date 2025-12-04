@@ -1,5 +1,6 @@
+
 import React, { useMemo, useState } from 'react';
-import { Submission } from '../../types';
+import { Submission } from '../../types.ts';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 interface OverviewTabProps {
